@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LOGIN PAGE</title>
+    <style>
+      body {
+  background: #fff;
+  padding-top: 20px;
+}
+p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: green;
+}
+.content {
+  width: 400px;
+  max-width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 4px 7px 0 #111111;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column-reverse;
+}
+input {
+  width: 200px;
+  height: 40px;
+  outline: none;
+  border: 2px solid green;
+  border-radius: none;
+  padding: 0 10px;
+}
+label {
+  font-size: 0.8rem;
+  color: rgba(0,0,0,0.7);
+}
+button {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background: green;
+  padding: 10px 15px;
+  color: #fff;
+  text-transform: uppercase;
+} 
+      </style>
+    
+  </head>
+<body>
+  <div class="content">
+    <p>
+      LOGIN PAGE
+    </p>
+    <div id="notification">
+    
+    </div>
+    <div class="form">
+      <input type="text" placeholder="Name"
+      name="user" id="user"/>
+    <label for="user">Enter Name</label>
+    </div>
+    <div class="form">
+      <input type="number" placeholder="Pin" size="4"
+      name="pass" id="pass"/>
+    <label for="pass">Enter Pin</label>     
+    </div>
+    <button signIn>
+      Sign In
+    </button>
+
+
+  </div>
+ 
+</body>
+</html>
