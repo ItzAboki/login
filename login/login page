@@ -4,7 +4,7 @@
     <title>LOGIN PAGE</title>
     <style>
       body {
-  background: #fff;
+  background: #ffffff;
   padding-top: 20px;
 }
 p {
@@ -65,10 +65,10 @@ button {
     <div class="form">
       <input type="text" placeholder="Name"
       name="user" id="user"/>
-    <label for="user">Enter Name</label>
+    <label for="user">Enter Your Name</label>
     </div>
     <div class="form">
-      <input type="number" placeholder="Pin" size="4"
+      <input type="number" placeholder="Pin" size="8"
       name="pass" id="pass"/>
     <label for="pass">Enter Pin</label>     
     </div>
